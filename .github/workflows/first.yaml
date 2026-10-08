@@ -14,7 +14,7 @@ jobs:
         run: echo "Building application"
 
       - name: Run multiple commands
-        run: | #use multiple cmds 
-         echo "Running test1"
-         echo "Running test2"
-         echo "Running test3"
+        run: | 
+          echo "This step runs several shell commands."
+          echo "Today's runner is: $RUNNER_OS"
+          echo "The repository is: $GITHUB_REPOSITORY"
