@@ -13,7 +13,7 @@ jobs:
       - name: Run a command
         run: echo "Building application"
 
-      - name: Run tests
+      - name: Run multiple commands
         run: | #use multiple cmds 
          echo "Running test1"
          echo "Running test2"
