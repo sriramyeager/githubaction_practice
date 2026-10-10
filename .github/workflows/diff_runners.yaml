@@ -3,7 +3,7 @@
 # GitHub hosts fresh, clean runners for you: Linux, Windows, and macOS.
 # `runs-on` picks which one. Each job gets its OWN runner.
 
-name: 08 - Runners
+name: Diff_runner
 
 on: workflow_dispatch
 
